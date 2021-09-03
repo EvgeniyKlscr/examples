@@ -1,0 +1,8 @@
+#!/bin/bash
+cd group_22
+mkdir -p {folder_1,folder_2,folder_3}
+cd folder_1
+touch {1_txt.txt,2_txt.txt,3_txt.txt,1_json.json,2_json.json}
+mkdir -p {folder_1_1,folder_1_2,folder_1_3}
+ls -la
+mv {1_json.json,2_json.json} g:/QA/git_bash/group_22
