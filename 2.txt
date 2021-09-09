@@ -1,2 +1,5 @@
 add the first line
-second hand
+
+second
+second conflict
+>>>>>>> first_branch
