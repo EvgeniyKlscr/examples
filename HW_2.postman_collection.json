@@ -55,16 +55,6 @@
 						"exec": [
 							"var jsonData = pm.response.json();\r",
 							"\r",
-							"// var schema = {\r",
-							"//     \"type\": \"object\",\r",
-							"//     \"properties\": {\r",
-							"//         \"age\": { \"type\": \"number\"},\r",
-							"//         \"salary\": { \"type\": \"number\"},\r",
-							"//         \"name\": { \"type\": \"string\"},\r",
-							"//         \"auth_token\": { \"type\": \"string\"}\r",
-							"//     }\r",
-							"// }\r",
-							"\r",
 							"var schema = {\r",
 							"  \"type\": \"object\",\r",
 							"  \"properties\": {\r",
@@ -139,7 +129,6 @@
 							"});\r",
 							"\r",
 							"pm.environment.set(\"salary_1_5\", jsonData.person.u_salary_1_5_year);\r",
-							"// console.log(jsonData.person.u_salary_1_5_year)\r",
 							""
 						],
 						"type": "text/javascript"
