@@ -1,5 +1,0 @@
-add the first line
-
-second
-second conflict
->>>>>>> first_branch
